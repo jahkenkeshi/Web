@@ -1,0 +1,36 @@
+p{
+    background-color: gray;
+    border: solid 3px green;
+    overflow: auto;
+}
+/* #first{
+    height: 100px;
+}
+#second{
+    width: 50%;
+}
+#third{
+    height: 200px;
+    width: 200px;
+} */
+p:nth-child(2) {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;  
+}
+p:nth-child(1){
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+p:nth-child(3){
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}

@@ -1,0 +1,42 @@
+body{
+    background-image: radial-gradient(at center #CCDAE0, #EDF2F4);
+}
+header{
+    text-align: center;
+}
+h1{
+    background: #EF233C;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: xx-large;
+}
+h3{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: dotted;
+}
+article{
+    border: solid black 1px;
+}
+img{
+    text-align: center;
+    border: solid #8D99AE 2px;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+a:visited{
+    color: grey;
+}
+a:link{
+    color: #D90429 ;
+}
+a:hover{
+    color: #2B2D42;
+}
+span{
+    color: red;
+}

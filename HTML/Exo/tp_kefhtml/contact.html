@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tp.css">
+</head>
+<body>
+    <a id="accueil"></a>
+    <header>
+        <img src="https://i.picsum.photos/id/142/200/300.jpg?hmac=B08HyXonHhJPFpULUNgMfoCFGZqymUB3NhBxo3iWTnc" alt="chateau" width="800" height="200">
+        <h1>Bienvenu sur mon site!</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueeil">accueil</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="gallerie">Gallerie</a></li>
+                <li><a href="file:///C:/Users/dev/Desktop/Dev/HTML/Exo/contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="phpfictif" method="post">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label class for="nom">Nom<span>*</span></label>
+                    <input type="text" required name="nom" id="nom" placeholder="Entrez votre nom" minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <label class for="mail">Email<span>*</span></label>
+                    <input type="text" required name="mail" id="mail" placeholder="Entrez votre email">
+                </div>
+                <div>
+                    <div><label for="comment">Laissez votre commentaire</label></div>
+                    <textarea name="comment" id="comment" cols="70" rows="10" placeholder="Ecrivez votre commentaire..."></textarea>
+                </div>
+                <div>
+                    <label for="envoi">Envoyer votre copie</label>
+                    <input type="checkbox" name="envoi" id="envoi" checked>
+                </div>
+                <div>
+                    <button>Envoyer</button>
+                    <button>Réinitialiser</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="f1">Menu 1</a></li>
+            <li><a href="f2">Menu 2</a></li>
+            <li><a href="f3">Menu 3</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+form{
+    width: 400px;
+    height: 250px;
+    border: solid 2px black;
+    background-color: lightgray;
+}
+label:nth-child(1), label:nth-child(2){
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#souvenir{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: gray;
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+    color: gray;
+}
+h1{
+    text-align: center;
+}
+#center{
+    text-align: center;
+}
+#space{
+    margin-left: 20px;
+}
+input::placeholder{
+    color: blue;
+    background-color: green;
+}

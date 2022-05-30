@@ -1,0 +1,84 @@
+body{
+    background-color:#ebebeb;
+    color:#001b27;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: #001b27;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+    border-color: aqua;
+}
+#firstPart{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.para{
+    background-color: rgba(235, 235, 235, 0);
+    border: 3px solid rgb(255, 157, 0);
+    color: rgb(0, 27, 37);
+    height: 230px;
+    width: 700px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    text-align: end;
+    */
+    text-align: start;
+    align-items: 200px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    color:#001b27;
+
+}
+
+.mathieu{
+    width: 200px;
+    height: 200px;
+}
+
+.temoignages{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    border-style: double;
+    border-color: black;
+    background-image: linear-gradient(to bottom left,#ebebeb 50%,#ff9d00);
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin-left: 30%;
+    color:#001b27;
+
+    
+}
+
+#texteTemoi{
+    padding-top: 100px;
+    color:#001b27;
+
+}
+
+#imageTemoi{
+    display: grid;
+    justify-content: start;
+    
+}
+
+h2{
+    text-align: center;
+}

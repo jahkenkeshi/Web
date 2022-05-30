@@ -1,0 +1,33 @@
+.fond{
+    background-color: rgba(0, 0, 255, 0.3);
+
+}
+
+table{
+    border: double purple 3px;
+    border-collapse: collapse;
+}
+caption{
+    color: purple;
+}
+tr{
+    border: solid black 2px;
+}
+td{
+    border: solid black 2px;
+}
+th{
+    border: 2px solid black;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: black solid 3px;
+    margin: 500px;
+}
+#fond{
+    background-color: red;
+}
+#lol{
+    margin: 50px;
+}

@@ -1,0 +1,24 @@
+.width{
+    width: 200px;
+    height: 200px;
+    border: black solid 2px;
+    margin: 20px;
+}
+#reddegrad{
+    background-image: linear-gradient(to left bottom, red, green, blue);
+}
+#degrad{
+    background-image: linear-gradient(to right bottom, purple 75%, yellow);
+}
+#wdegrad{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), white);
+}
+#circle{
+    background-image: radial-gradient(circle at center, lightblue, pink);
+}
+#repeating{
+    background-image: repeating-radial-gradient(circle at center, white, black 10px);
+}
+#repeating:hover{
+    background-image: repeating-radial-gradient(circle at center, black,white 10px);
+}

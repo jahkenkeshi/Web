@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 5vh;
+}
+h3{
+    color: blue;
+    font-size: 3vh;
+}
+.fond{
+    background-color: gray;
+}
+#fondrose{
+    background-color: pink;
+}
+strong{
+    font-weight: normal;
+    color: yellowgreen;
+}
+em{
+    font-size: normal;
+    color: orange;
+    text-decoration: underline;
+    font-size: 2vh;
+}
+#right{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
