@@ -1,0 +1,12 @@
+.cardmaster{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    display: grid;
+    grid-template-rows: 2;
+}
+.imgp{
+    display: flex;
+
+}
