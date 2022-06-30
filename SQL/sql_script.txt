@@ -1,0 +1,58 @@
+use testBDD;                                         (toujours faire avant de manipuler une base de donné)
+
+insert into article (nom_article, prix_article)     (ajouter des élément dans un champ)
+values("oeufs",1.80),
+("pomme de terre",5),
+("navet",0.3);
+
+
+update article                                     (modifer les élément d'un champ)
+set prix_article = 1.3
+where nom_article = "patate";
+
+use facturation;
+
+insert into ville (nom_ville, code_postal)
+values ("feunouillet", 31000);
+
+update ville
+set code_postal = "31150"
+where id_ville = "1";
+
+use testbdd;
+
+insert into vendeur(nom_vendeur, prenom_vendeur)
+values ("BROQUET", "theo"),
+("AZA","lazarovich"),
+("GUIRAUD","quentin"),
+("delangue","raph");
+
+insert into ticket(date_ticket, id_vendeur)
+values ("2021-02-14",1),
+("2021-04-19",2),
+("2021-09-01",3),
+("2021-12-24",1);
+
+insert into ajouter(id_ticket,id_article,qtx)
+values (1,1,1),
+(2,3,3),
+(2,2,9),
+(2,1,10),
+(3,2,2),
+(3,3,3),
+(4,1,1),
+(4,2,3),
+(4,2,1),
+(4,3,20);
+
+select nom_article, prix_article from article;
+
+
+
+
+alter table clients                         
+modify tel_client bigint(20) not null;
+
+select nom_client,prenom_client, id_ville from clients;         (afficher les noms et prenom des client de la table client)
+
+select nom_client,prenom_client, id_ville as ville from clients;
